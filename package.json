@@ -1,7 +1,7 @@
 {
-  "name": "ytmp3-api",
+  "name": "movie-api",
   "version": "1.0.0",
-  "description": "YouTube MP3 Downloader API",
+  "description": "Movie information API for SinhalaSub.lk",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -13,10 +13,7 @@
     "cheerio": "^1.0.0-rc.12",
     "cors": "^2.8.5"
   },
-  "devDependencies": {
-    "nodemon": "^3.0.1"
-  },
-  "engines": {
-    "node": ">=18.x"
-  }
+  "keywords": ["movie", "api", "scraper", "sinhalasub"],
+  "author": "Your Name",
+  "license": "MIT"
 }
