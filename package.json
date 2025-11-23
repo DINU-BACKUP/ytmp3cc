@@ -1,19 +1,20 @@
 {
-  "name": "movie-api",
+  "name": "ytmp3-api",
   "version": "1.0.0",
-  "description": "Movie information API for SinhalaSub.lk",
-  "main": "index.js",
+  "description": "YouTube to MP3 Converter API",
+  "main": "api/ytmp3.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "vercel dev",
+    "start": "node api/ytmp3.js"
   },
   "dependencies": {
     "express": "^4.18.2",
-    "axios": "^1.6.0",
-    "cheerio": "^1.0.0-rc.12",
-    "cors": "^2.8.5"
+    "cors": "^2.8.5",
+    "ytdl-core": "^4.11.5",
+    "fluent-ffmpeg": "^2.1.2",
+    "axios": "^1.6.0"
   },
-  "keywords": ["movie", "api", "scraper", "sinhalasub"],
-  "author": "Your Name",
-  "license": "MIT"
+  "devDependencies": {
+    "@vercel/node": "^2.0.0"
+  }
 }
